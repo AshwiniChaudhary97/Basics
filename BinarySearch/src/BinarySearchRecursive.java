@@ -14,7 +14,7 @@ public class BinarySearchRecursive {
     }
 
     public static void main(String[] args) {
-        int[] array = {-8,4,56,89,112};
+        int[] array = {-8,4,56,89};
         System.out.println(binarySearchRecursive(array,0, array.length-1,89));
     }
 }
